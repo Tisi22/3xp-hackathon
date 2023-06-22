@@ -9,7 +9,7 @@ MintWorld is community owned NFT based 2D Monster Catcher RPG, currently in deve
 * BaseMintmons.sol: [Link Mantle Explorer BaseMintmons.sol](https://explorer.testnet.mantle.xyz/address/0x62D8E101084CD63e3883fF3038C2f8Ee70f1a081)
 * MintWorldToken.sol: [Link Mantle Explorer MintWorldToken.sol](https://explorer.testnet.mantle.xyz/address/0xD36eFA1b70e74387C8c284775C46F946893936d1)
 * MintWorldFaucet.sol: [Link Mantle Explorer MintWorldFaucet.sol](https://explorer.testnet.mantle.xyz/address/0x87d58A81D06f3Ab5CE2aA45ae9f631e296405211)
-* Items.sol: [Link Mantle Explorer Items.sol](https://explorer.testnet.mantle.xyz/address/0x4E0234C88054D38F33b034089186a33439d13DEa)
+* Items.sol: [Link Mantle Explorer Items.sol](https://explorer.testnet.mantle.xyz/address/0x87a3c277Ebf880e28F7eb57fD94b72Bd51f65784)
 
 #### Actions during 3xp-hackathon
 
@@ -26,4 +26,4 @@ MintWorld is community owned NFT based 2D Monster Catcher RPG, currently in deve
     BaseMintmons.sol: 0x62D8E101084CD63e3883fF3038C2f8Ee70f1a081
     MintWorldToken.sol: 0xD36eFA1b70e74387C8c284775C46F946893936d1
     MintWorldFaucet.sol: 0x87d58A81D06f3Ab5CE2aA45ae9f631e296405211
-    Items.sol: 0x4E0234C88054D38F33b034089186a33439d13DEa
+    Items.sol: 0x87a3c277Ebf880e28F7eb57fD94b72Bd51f65784

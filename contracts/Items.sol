@@ -41,7 +41,7 @@ contract Items is ERC1155, Ownable, ERC1155Burnable {
     function mint(uint256 id, uint256 amount, uint256 valueMWG)
         public
     {
-        require(mwgContract.balanceOf(msg.sender) >= valueMWG, "Not enough MWG");
+        require(mwgContract.balanceOf(msg.sender) >= Math.mul(valueMWG, 10**uint256(mwgContract.decimals())), "Not enough MWG");
         require(prices[id]*amount >= valueMWG, "Not enough MWG sent");
 
         // Transfer MWG tokens from the sender to usedMWG address
@@ -59,7 +59,7 @@ contract Items is ERC1155, Ownable, ERC1155Burnable {
 
     function mintAndBurn(uint256 id, uint256 amount, uint256 valueMWG, uint256 amountToBurn) public 
     {
-        require(mwgContract.balanceOf(msg.sender) >= valueMWG, "Not enough MWG");
+        require(mwgContract.balanceOf(msg.sender) >= Math.mul(valueMWG, 10**uint256(mwgContract.decimals())), "Not enough MWG");
         require(prices[id]*amount >= valueMWG, "Not enough MWG sent");
 
         // Transfer MWG tokens from the sender to usedMWG address
